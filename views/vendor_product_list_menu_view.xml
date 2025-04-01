@@ -8,4 +8,9 @@
               parent="vendor_product_list_menu_root"
               sequence="1"
               action="purchase_order_action"/>
+    <menuitem id="product_menu_action"
+              name="Product"
+              parent="vendor_product_list_menu_root"
+              sequence="2"
+              action="product.product_template_action_all"/>
 </odoo>
