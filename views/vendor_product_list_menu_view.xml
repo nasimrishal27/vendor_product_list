@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <menuitem id="vendor_product_list_menu_root"
+              name="Vendor Product List"
+              sequence="1"/>
+    <menuitem id="purchase_order_menu_action"
+              name="Purchase Order"
+              parent="vendor_product_list_menu_root"
+              sequence="1"
+              action="purchase_order_action"/>
+</odoo>
